@@ -1,13 +1,17 @@
 import requests
 import sys
 
+#Use hibp.py <email file>
+
 file = (sys.argv[1])
 
+#Read email file 
 with open(file, 'r') as s:
     email=s.read().splitlines()
 
-api_key = "021b8085db734d848068b5dde2454c80"
+api_key = "API_KEY" #Create your API Key in https://haveibeenpwned.com/API/Key
 
+#Get name and dataclasses keys in the json file
 for line in email:
     print(line)
     url = 'https://haveibeenpwned.com/api/v3/breachedaccount/{}?truncateResponse=false'.format(line)
