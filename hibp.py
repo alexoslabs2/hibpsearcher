@@ -1,17 +1,20 @@
+# hibpSearcher - A Have I Been Pwned searcher
+# Author: alexos
+
 import requests
 import sys
 
-#Use hibp.py <email file>
+# Use hibp.py <email file>
 
 file = (sys.argv[1])
 
-#Read email file 
+# Read email file 
 with open(file, 'r') as s:
     email=s.read().splitlines()
 
 api_key = "API_KEY" #Create your API Key in https://haveibeenpwned.com/API/Key
 
-#Get name and dataclasses keys in the json file
+# Get name and dataclasses keys in the json file
 for line in email:
     print(line)
     url = 'https://haveibeenpwned.com/api/v3/breachedaccount/{}?truncateResponse=false'.format(line)
