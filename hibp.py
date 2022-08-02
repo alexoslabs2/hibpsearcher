@@ -1,4 +1,4 @@
-# hibpSearcher - A Have I Been Pwned searcher
+# hibpSearcher - A Have I Been Pwned Searcher
 # Author: alexos
 
 import requests
