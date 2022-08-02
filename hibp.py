@@ -5,7 +5,6 @@ import requests
 import sys
 
 # Use hibp.py <email file>
-
 file = (sys.argv[1])
 
 # Read email file 
