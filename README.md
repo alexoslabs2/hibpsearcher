@@ -16,3 +16,15 @@ vim emails.txt
 * Run the script
 
 python3 hibp.py emails.txt
+
+user1@example.com
+
+Cit0day ['Email addresses', 'Passwords']
+
+user2@example.com
+
+Canva ['Email addresses', 'Geographic locations', 'Names', 'Passwords', 'Usernames']
+
+user3@example.com
+
+Cit0day ['Email addresses', 'Passwords']
