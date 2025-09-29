@@ -1,6 +1,6 @@
 # hibpSearcher
 
-**Quick Overview**  
+**Overview**  
 CLI tool to query the *Have I Been Pwned* (HIBP) database and identify in which breaches one or more email addresses were exposed. A practical deliverable for security investigations, due diligence, and incident validation — with a focus on stakeholder-readable output and easy ingestion into pipelines (CSV/JSON).
 
 ---
